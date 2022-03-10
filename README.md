@@ -1,2 +1,5 @@
-# SpringDemo1
-![image](https://user-images.githubusercontent.com/73872995/157647778-5c6bfe7f-e222-4468-a6a4-7f3ef970ade5.png)
+# HELLO KYRIA 
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
+

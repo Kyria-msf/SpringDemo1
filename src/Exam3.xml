@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- bean is an object that spring container manager -->
+    
+ 
+    
+    <bean id = "student3" class = "KyriaLearningDepencyInjection.Student3">
+    
+    <!-- LOOK FOR A CONSTRUCTOR THAT HAS STDNAME AND ID -->
+    <constructor-arg name="studentName" value="Justin Rundel" />
+    <constructor-arg name="id" value = "3"/>
+    <!-- type="int" type = "java.lang.String" -->
+    
+   </bean>
+   
+    
+</beans>

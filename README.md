@@ -1,11 +1,11 @@
 # Sprind Demo 1
 
-#### INTRODUCTION 
+### INTRODUCTION 
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Inversion Of Control (IOC)`
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Dependency Injection`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Spring Annotation`
 
-#### DEVELOPMENT 
+### DEVELOPMENT 
 1. ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Inversion Of Control (IOC)`
 
 Spring framework creates and manages objects for us. 

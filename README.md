@@ -19,7 +19,7 @@ Beans are objects that are inside the IOC Container
 - BeanFactory 
 - ApplicationContext 
 
-2. - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Dependency`?
+2. ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Dependency`?
 
 It is something I depend on, 
 For me to be happy: 
@@ -28,16 +28,15 @@ My job is my dependency, If I have a job I will have food, because it will provi
 To drive a car, I need a driving license  
 If I want to go back to my country I will need a passport, so passport is my dependency. 
 
-####### Type of Dependencies: 
+##### Type of Dependencies: 
 
 - Dependencies in form of literals 
 
 - Dependencies in the form of objective 
 
+3. ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Annotation`
 
-### Annotation
-
-##### Auto wiring 
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Auto wiring `
 
 If the dependencies are not configured 
 
@@ -54,9 +53,9 @@ Autowire = “constructor”:  Use the dependency
 @Autowire // It is not possible for primitive but only for objects, how could spring know what data to enter 
 
 @Autowire means Inject 
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) ` @Qualifier: When you have multiple implementation and spring does not know what to use, and the specify the object you want `
 
-#####  @Qualifier: When you have multiple implementation and spring does not know what to use, and the specify the object you want 
-
+```
 How @Autowired works? 
 
 First it try to inject the dependency with “byType” 
@@ -64,8 +63,9 @@ First it try to inject the dependency with “byType”
 If byTYPE fails then it goes with “byName 
 
 Autowired in front of the field you do not need setters 
+```
 
-##### @Value() 
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `@Value()`
 
 Can only be used before the field, property, dependency 
 
@@ -73,21 +73,21 @@ Can only be used before the field, property, dependency
 
 Private String name; 
 
-##### @Component: It creates an object for us and register that object it in the IC Containers or Application context 
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) ` @Component: It creates an object for us and register that object it in the IC Containers or Application context `
 
  @Component(“collegeBean”) 
 
 If you do not define the default id the id will be the name of the class in lowercase 
 
-##### @Configuration: Which tells spring that this is our configuration file. 
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `@Configuration: Which tells spring that this is our configuration file.`
 
-##### @ComponentScan: helps to scan where the  component is so that it can create an object for it. 
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `@ComponentScan: helps to scan where the  component is so that it can create an object for it.` 
 
-#####  @Bean  There is another way to create a bean using “@Bean” Annotation 
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `@Bean  There is another way to create a bean using “@Bean” Annotation` 
 
 The collegeBean()  will be actually the name of our Bean 
 
-##### @Configuration 
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `@Configuration` 
 
 @ComponentScan(basePackages = "AnnotationFinal") 
 

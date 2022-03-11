@@ -36,6 +36,13 @@ If I want to go back to my country I will need a passport, so passport is my dep
 
 3. ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Annotation`
 
+- - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `@Autowire`
+- - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `@Value`
+- - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `@Component`
+- - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `@ComponentScan`
+- - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `@Configuration`
+
+
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Auto wiring `
 
 If the dependencies are not configured 

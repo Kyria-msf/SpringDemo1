@@ -1,7 +1,7 @@
 # HELLO KYRIA 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) #Kyria
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Inversion Of Control (IOC)`
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Dependency Injection`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Spring Annotation`
 
 
 [![](https://img.shields.io/badge/Inversion Of Control (IOC)-blue?style=for-the-badge)](https://github.com/hamzamohdzubair/redant)
@@ -15,10 +15,3 @@
 These are <b style='color:red'>red words</b>.
 
 
-Inversion Of Control (IOC) 
-
-Dependency Injection 
-
-Auto wiring in Spring 
-
-Spring Annotation 

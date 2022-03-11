@@ -34,6 +34,9 @@ If I want to go back to my country I will need a passport, so passport is my dep
 
 - Dependencies in the form of objective 
 
+### DEPENDECY INJECTION
+There is construction Injector and setter Injection 
+
 3. ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Annotation`
 
 - - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `@Autowire`

@@ -1,14 +1,9 @@
 # Sprind Demo 1
 
-# # INTRODUCTION 
+## INTRODUCTION 
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Inversion Of Control (IOC)`
- # kyria
- 
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Dependency Injection`
- 
- # kyria
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Spring Annotation`
-
 
 ## DEVELOPMENT 
 1. ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Inversion Of Control (IOC)`
@@ -42,7 +37,7 @@ If I want to go back to my country I will need a passport, so passport is my dep
 
 ### Annotation
 
-- Auto wiring 
+##### Auto wiring 
 
 If the dependencies are not configured 
 
@@ -60,7 +55,7 @@ Autowire = “constructor”:  Use the dependency
 
 @Autowire means Inject 
 
-- @Qualifier: When you have multiple implementation and spring does not know what to use, and the specify the object you want 
+#####  @Qualifier: When you have multiple implementation and spring does not know what to use, and the specify the object you want 
 
 How @Autowired works? 
 
@@ -70,7 +65,7 @@ If byTYPE fails then it goes with “byName
 
 Autowired in front of the field you do not need setters 
 
-- @Value() 
+##### @Value() 
 
 Can only be used before the field, property, dependency 
 
@@ -78,21 +73,21 @@ Can only be used before the field, property, dependency
 
 Private String name; 
 
-- @Component: It creates an object for us and register that object it in the IC Containers or Application context 
+##### @Component: It creates an object for us and register that object it in the IC Containers or Application context 
 
  @Component(“collegeBean”) 
 
 If you do not define the default id the id will be the name of the class in lowercase 
 
-- @Configuration: Which tells spring that this is our configuration file. 
+##### @Configuration: Which tells spring that this is our configuration file. 
 
-- @ComponentScan: helps to scan where the  component is so that it can create an object for it. 
+##### @ComponentScan: helps to scan where the  component is so that it can create an object for it. 
 
-- @Bean  There is another way to create a bean using “@Bean” Annotation 
+#####  @Bean  There is another way to create a bean using “@Bean” Annotation 
 
 The collegeBean()  will be actually the name of our Bean 
 
-- @Configuration 
+##### @Configuration 
 
 @ComponentScan(basePackages = "AnnotationFinal") 
 

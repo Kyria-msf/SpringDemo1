@@ -8,7 +8,7 @@
 [![](https://img.shields.io/badge/Dependency Injection-blueviolet?style=for-the-badge)](https://hamzamohdzubair.github.io/redant/)
 [![](https://img.shields.io/badge/Auto wiring in Spring-yellow?style=for-the-badge)](https://docs.rs/crate/redant/latest)
 [![](https://img.shields.io/badge/Spring Annotation -orange?style=for-the-badge)](https://crates.io/crates/redant)
-[![](https://img.shields.io/badge/Lib.rs-lightgrey?style=for-the-badge)](https://lib.rs/crates/redant)
+[![](https://img.shields.io/badge/Lib.rs-lightgrey?style=for-the-badge)](https://Spring Annotation.rs/crates/redant)
 
 <p style='color:red'>This is some red text.</p>
 <font color="red">This is some text!</font>

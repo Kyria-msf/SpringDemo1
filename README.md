@@ -89,6 +89,7 @@ The collegeBean()  will be actually the name of our Bean
 
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `@Configuration` 
 
+```
 @ComponentScan(basePackages = "AnnotationFinal") 
 
 public class CollegeConfig { 
@@ -118,6 +119,4 @@ You can provide multiple alias to a particular “bean” too
 
 You do not need @ComponentScan when using bean annotation 
 
-@Autowired 
-
-@Qualifier: If you have multiple implementations but you want to use only one, then specify it here
+```
